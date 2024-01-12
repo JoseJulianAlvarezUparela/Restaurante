@@ -1,0 +1,47 @@
+/* #cuadro {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+} */
+
+.HeroSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    height: calc(90vh - 80px);
+}
+
+.Left{
+    width: 30%;
+    height: 100%;
+
+    overflow-x: auto;
+}
+
+.Left .rectangulo{
+    width: 90%;
+    height: 100px;
+    background-color: violet;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Right{
+    width: 68%;
+    height: 100%;
+    background-color: brown;
+    overflow-x: auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+.Right .Imagenes{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: aliceblue;
+}

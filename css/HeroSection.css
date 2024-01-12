@@ -1,0 +1,139 @@
+.HeroSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.left{
+    width: 45%;
+    height: 80vh;
+}
+
+.left h1 {
+    font-size: 6rem;
+    margin-bottom: 0;
+}
+
+.left p{
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+
+.left a {
+    font-size: 2rem;
+    color: rgb(68, 62, 62);
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgb(253, 186, 0);
+}
+
+.left a:hover {
+    transition: 1s;
+    padding: 10px;
+}
+
+/* Animación de entrada de izquierda a derecha */
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-10%);
+      opacity: 0;
+    }
+    
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Animación de entrada de derecha a izquierda */
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(10%);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+
+  
+  /* Aplicar animaciones a los elementos */
+  .title {
+    animation: slideInLeft 1s;
+  }
+  
+  .description {
+    animation: slideInRight 1s;
+  }
+  
+
+
+
+
+/* ****************************************************************** */
+
+
+.right{
+    width: 50%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: 100px auto;
+    column-gap: 20px;
+}
+
+.right img {
+  border-radius: 20px;
+  height: auto;
+  width: 100%;
+}
+
+.item:nth-child(1){
+    grid-row-end: span 2;
+}
+
+.item:nth-child(2){
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-row-end: span 2;
+}
+
+/* ANIMACIONES */
+
+/* Animación de entrada de arriba hacia abajo */
+@keyframes slideInUp {
+    0% {
+      transform: translateY(-10%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Animación de entrada de abajo hacia arriba */
+  @keyframes slideInDown {
+    0% {
+      transform: translateY(10%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Aplicar animaciones a las imágenes */
+  .right img.item {
+    animation: slideInUp 1s ease-in-out;
+  }
+  
+  .right img.item:nth-child(2) {
+    animation: slideInDown 1s ease-in-out;
+  }
+  
