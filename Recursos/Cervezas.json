@@ -1,0 +1,105 @@
+{
+    "cervezas": [
+      {
+        "nombre": "Snow",
+        "origen": "China",
+        "img": "../img/snow.png"
+      },
+      {
+        "nombre": "Budweiser",
+        "origen": "Estados Unidos",
+        "img": "../img/Budweiser.png"
+      },
+      {
+        "nombre": "Heineken",
+        "origen": "Países Bajos",
+        "img": "../img/Heineken.png"
+      },
+      {
+        "nombre": "Bud Light",
+        "origen": "Estados Unidos",
+        "img": "../img/Bud Light.png"
+      },
+      {
+        "nombre": "Modelo Especial",
+        "origen": "México",
+        "img": "../img/Modelo Especial.png"
+      },
+      {
+        "nombre": "Tsingtao",
+        "origen": "China",
+        "img": "../img/Tsingtao.png"
+      },
+      {
+        "nombre": "Brahma",
+        "origen": "Brasil",
+        "img": "../img/Brahma.png"
+      },
+      {
+        "nombre": "Skol",
+        "origen": "Brasil",
+        "img": "../img/Skol.png"
+      },
+      {
+        "nombre": "Corona Extra",
+        "origen": "México",
+        "img": "../img/Corona Extra.png"
+      },
+      {
+        "nombre": "Coors Light",
+        "origen": "Estados Unidos",
+        "img": "../img/Coors Light.png"
+      },
+      {
+        "nombre": "Miller Lite",
+        "origen": "Estados Unidos",
+        "img": "../img/Miller Lite.png"
+      },
+      {
+        "nombre": "Guinness",
+        "origen": "Irlanda",
+        "img": "../img/"
+      },
+      {
+        "nombre": "Chang",
+        "origen": "Tailandia",
+        "img": "../img/Chang.png"
+      },
+      {
+        "nombre": "Carlsberg",
+        "origen": "Dinamarca",
+        "img": "../img/Carlsberg.png"
+      },
+      {
+        "nombre": "Stella Artois",
+        "origen": "Bélgica",
+        "img": "../img/Stella Artois.png"
+      },
+      {
+        "nombre": "Efes",
+        "origen": "Turquía",
+        "img": "../img/Efes.png"
+      },
+      {
+        "nombre": "Beck's",
+        "origen": "Alemania",
+        "img": "../img/Beck's.png"
+      },
+      {
+        "nombre": "Singha",
+        "origen": "Tailandia",
+        "img": "../img/Singha.png"
+      },
+      {
+        "nombre": "Amstel",
+        "origen": "Países Bajos",
+        "img": "../img/Amstel.png"
+      },
+      {
+        "nombre": "Pilsner Urquell",
+        "origen": "República Checa",
+        "img": "../img/Pilsner Urquell.png"
+      }
+    ]
+  }
+  

@@ -1,0 +1,116 @@
+{
+    "vinos": {
+      "tintos": [
+        {
+          "nombre": "Cabernet Sauvignon",
+          "img": "",
+          "calificacion": "⭐⭐⭐⭐⭐"
+        },
+        {
+          "nombre": "Merlot",
+          "img": "",
+          "calificacion": "⭐⭐⭐⭐"
+        },
+        {
+          "nombre": "Shiraz",
+          "img": "",
+          "calificacion": "⭐⭐⭐⭐"
+        },
+        {
+          "nombre": "Tempranillo",
+          "img": "",
+          "calificacion": "⭐⭐⭐⭐⭐"
+        },
+        {
+          "nombre": "Pinot Noir",
+          "img": "",
+          "calificacion": "⭐⭐⭐⭐"
+        },
+        {
+          "nombre": "Malbec",
+          "img": "",
+          "calificacion": "⭐⭐⭐⭐"
+        },
+        {
+          "nombre": "Zinfandel",
+          "img": "",
+          "calificacion": "⭐⭐⭐"
+        },
+        {
+          "nombre": "Grenache",
+          "img": "",
+          "calificacion": "⭐⭐⭐⭐"
+        }
+      ],
+      "blancos": [
+        {
+          "nombre": "Chardonnay",
+          "img": "",
+          "calificacion": "⭐⭐⭐⭐⭐"
+        },
+        {
+          "nombre": "Sauvignon Blanc",
+          "img": "",
+          "calificacion": "⭐⭐⭐⭐"
+        },
+        {
+          "nombre": "Riesling",
+          "img": "",
+          "calificacion": "⭐⭐⭐⭐⭐"
+        },
+        {
+          "nombre": "Sauvignon Gris",
+          "img": "",
+          "calificacion": "⭐⭐⭐"
+        },
+        {
+          "nombre": "Semillón",
+          "img": "",
+          "calificacion": "⭐⭐⭐⭐"
+        },
+        {
+          "nombre": "Albariño",
+          "img": "",
+          "calificacion": "⭐⭐⭐⭐"
+        },
+        {
+          "nombre": "Pinot Gris",
+          "img": "",
+          "calificacion": "⭐⭐⭐⭐"
+        },
+        {
+          "nombre": "Gewurztraminer",
+          "img": "",
+          "calificacion": "⭐⭐⭐⭐⭐"
+        }
+      ],
+      "espumosos": [
+        {
+          "nombre": "Champagne",
+          "img": "",
+          "calificacion": "⭐⭐⭐⭐⭐"
+        },
+        {
+          "nombre": "Prosecco",
+          "img": "",
+          "calificacion": "⭐⭐⭐⭐"
+        },
+        {
+          "nombre": "Cava",
+          "img": "",
+          "calificacion": "⭐⭐⭐⭐"
+        },
+        {
+          "nombre": "Espumante",
+          "img": "",
+          "calificacion": "⭐⭐⭐⭐"
+        },
+        {
+          "nombre": "Sparkling Wine",
+          "img": "",
+          "calificacion": "⭐⭐⭐⭐"
+        }
+      ]
+    }
+  }
+  

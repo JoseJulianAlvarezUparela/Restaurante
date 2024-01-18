@@ -1,0 +1,220 @@
+{
+    "Gastronomía Brazil": [
+        {
+            "Nombre": "Abará",
+            "Img": "../img/abara.png",
+            "Acompañante": "Ensalada",
+            "AcompañanteDos": "Tajadas de Plátano Maduro",
+            "AcompañanteTres": "Frijoles",
+            "Estrellas": "⭐⭐⭐⭐⭐",
+            "Precio": "$ 30.000"
+        },
+        {
+            "Nombre": "Aberém",
+            "Img": "../img/aberem.png",
+            "Acompañante": "Arroz Carreteiro",
+            "AcompañanteDos": "Barreado",
+            "AcompañanteTres": "Buchada de Bode",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 25.000"
+        },
+        {
+            "Nombre": "Açaí do Maranhão",
+            "Img": "../img/Açaí do Maranhão.png",
+            "Acompañante": "Biscoito de Polvilho",
+            "AcompañanteDos": "Brigadeiro",
+            "AcompañanteTres": "Bolinho de Chuva",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 20.000"
+        },
+        {
+            "Nombre": "Açaí do Pará",
+            "Img": "../img/Açaí do Pará.png",
+            "Acompañante": "Bobó de Camarão",
+            "AcompañanteDos": "Bolo de Rolo",
+            "AcompañanteTres": "Bolo de Tapioca",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 28.000"
+        },
+        {
+            "Nombre": "Acarajé",
+            "Img": "../img/Acarajé.png",
+            "Acompañante": "Bolo de Macaxeira",
+            "AcompañanteDos": "Bolo de Tapioca",
+            "AcompañanteTres": "Bolo Mole",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 22.000"
+        },
+        {
+            "Nombre": "Arroz Carreteiro",
+            "Img": "../img/Arroz Carreteiro.png",
+            "Acompañante": "Bricelet",
+            "AcompañanteDos": "Buchada de Bode",
+            "AcompañanteTres": "Caldo de Piranha",
+            "Estrellas": "⭐⭐⭐⭐⭐",
+            "Precio": "$ 35.000"
+        },
+        {
+            "Nombre": "Arroz com Pequi",
+            "Img": "../img/Arroz com Pequi.png",
+            "Acompañante": "Camarão no Abacaxi",
+            "AcompañanteDos": "Camarão no Bafo",
+            "AcompañanteTres": "Canjica, Canjicão ou Mugunzá",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 32.000"
+        },
+        {
+            "Nombre": "Arroz de Cuxá",
+            "Img": "../img/Arroz de Cuxá.png",
+            "Acompañante": "Caranguejo",
+            "AcompañanteDos": "Carne de Jacaré",
+            "AcompañanteTres": "Carne de Onça",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 26.000"
+        },
+        {
+            "Nombre": "Arroz de Leite",
+            "Img": "../img/Arroz de Leite.png",
+            "Acompañante": "Carne de Sol",
+            "AcompañanteDos": "Ensalada",
+            "AcompañanteTres": "Frijoles",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 30.000"
+        },
+        {
+            "Nombre": "Arroz-Doce",
+            "Img": "../img/Arroz-Doce.png",
+            "Acompañante": "Tajadas de Plátano Maduro",
+            "AcompañanteDos": "Frijoles",
+            "AcompañanteTres": "Bricelet",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 23.000"
+        },
+        {
+            "Nombre": "Baião de Dois",
+            "Img": "../img/Baião de Dois.png",
+            "Acompañante": "Buchada de Bode",
+            "AcompañanteDos": "Caldo de Piranha",
+            "AcompañanteTres": "Camarão no Abacaxi",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 29.000"
+        },
+        {
+            "Nombre": "Barreado",
+            "Img": "../img/Barreado.png",
+            "Acompañante": "Camarão no Bafo",
+            "AcompañanteDos": "Canjica, Canjicão ou Mugunzá",
+            "AcompañanteTres": "Caranguejo",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 24.000"
+        },
+        {
+            "Nombre": "Biscoito de Polvilho",
+            "Img": "../img/Biscoito de Polvilho.png",
+            "Acompañante": "Carne de Jacaré",
+            "AcompañanteDos": "Carne de Onça",
+            "AcompañanteTres": "Carne de Sol",
+            "Estrellas": "⭐⭐⭐⭐⭐",
+            "Precio": "$ 33.000"
+        },
+        {
+            "Nombre": "Bobó de Camarão",
+            "Img": "../img/Bobó de Camarão.png",
+            "Acompañante": "Ensalada",
+            "AcompañanteDos": "Tajadas de Plátano Maduro",
+            "AcompañanteTres": "Frijoles",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 22.000"
+        },
+        {
+            "Nombre": "Bolo de Rolo",
+            "Img": "../img/Bolo de Rolo.png",
+            "Acompañante": "Biscoito de Polvilho",
+            "AcompañanteDos": "Brigadeiro",
+            "AcompañanteTres": "Bolinho de Chuva",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 20.000"
+        },
+        {
+            "Nombre": "Bolo de Macaxeira",
+            "Img": "../img/Bolo de Macaxeira.png",
+            "Acompañante": "Bobó de Camarão",
+            "AcompañanteDos": "Bolo de Rolo",
+            "AcompañanteTres": "Bolo de Tapioca",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 26.000"
+        },
+        {
+            "Nombre": "Bolo de Tapioca",
+            "Img": "../img/Bolo de Tapioca.png",
+            "Acompañante": "Bolo de Macaxeira",
+            "AcompañanteDos": "Bolo de Tapioca",
+            "AcompañanteTres": "Bolo Mole",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 24.000"
+        },
+        {
+            "Nombre": "Bolo Mole",
+            "Img": "../img/Bolo Mole.png",
+            "Acompañante": "Arroz Carreteiro",
+            "AcompañanteDos": "Bricelet",
+            "AcompañanteTres": "Buchada de Bode",
+            "Estrellas": "⭐⭐⭐⭐⭐",
+            "Precio": "$ 35.000"
+        },
+        {
+            "Nombre": "Bricelet",
+            "Img": "../img/Bricelet.png",
+            "Acompañante": "Camarão no Abacaxi",
+            "AcompañanteDos": "Camarão no Bafo",
+            "AcompañanteTres": "Canjica, Canjicão ou Mugunzá",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 32.000"
+        },
+        {
+            "Nombre": "Brigadeiro",
+            "Img": "../img/Brigadeiro.png",
+            "Acompañante": "Caranguejo",
+            "AcompañanteDos": "Carne de Jacaré",
+            "AcompañanteTres": "Carne de Onça",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 26.000"
+        },
+        {
+            "Nombre": "Buchada de Bode",
+            "Img": "../img/Buchada de Bode.png",
+            "Acompañante": "Carne de Sol",
+            "AcompañanteDos": "Ensalada",
+            "AcompañanteTres": "Frijoles",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 30.000"
+        },
+        {
+            "Nombre": "Caldo de Piranha",
+            "Img": "../img/Caldo de Piranha.png",
+            "Acompañante": "Tajadas de Plátano Maduro",
+            "AcompañanteDos": "Frijoles",
+            "AcompañanteTres": "Bricelet",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 23.000"
+        },
+        {
+            "Nombre": "Camarão no Abacaxi",
+            "Img": "../img/Camarão no Abacaxi.png",
+            "Acompañante": "Buchada de Bode",
+            "AcompañanteDos": "Caldo de Piranha",
+            "AcompañanteTres": "Camarão no Bafo",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 29.000"
+        },
+        {
+            "Nombre": "Camarão no Bafo",
+            "Img": "../img/Camarão no Bafo.png",
+            "Acompañante": "Camarão no Bafo",
+            "AcompañanteDos": "Canjica, Canjicão ou Mugunzá",
+            "AcompañanteTres": "Caranguejo",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 24.000"
+        }
+    ]
+}

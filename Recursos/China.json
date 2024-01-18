@@ -1,0 +1,202 @@
+{
+    "Gastronomía China": [
+        {
+            "Nombre": "Sopa de aleta de tiburón",
+            "Img": "../img/Sopa de aleta de tiburón.png",
+            "Acompañante": "Algas",
+            "AcompañanteDos": "Huevo batido",
+            "AcompañanteTres": "Cebollín",
+            "Estrellas": "⭐⭐⭐⭐⭐",
+            "Precio": "$ 40.000"
+        },
+        {
+            "Nombre": "Zongzi",
+            "Img": "../img/Zongzi.png",
+            "Acompañante": "Salsa de soja",
+            "AcompañanteDos": "Jengibre",
+            "AcompañanteTres": "Vinagre negro chino",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 35.000"
+        },
+        {
+            "Nombre": "Dim sum",
+            "Img": "../img/Dim sum.png",
+            "Acompañante": "Salsa de cacahuate",
+            "AcompañanteDos": "Salsa agridulce",
+            "AcompañanteTres": "Vinagre de arroz",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 38.000"
+        },
+        {
+            "Nombre": "Wonton",
+            "Img": "../img/Wonton.png",
+            "Acompañante": "Salsa de soja",
+            "AcompañanteDos": "Vinagre de arroz",
+            "AcompañanteTres": "Aceite de sésamo",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 32.000"
+        },
+        {
+            "Nombre": "Abalón en lecho de lechuga",
+            "Img": "../img/Abalón en lecho de lechuga.png",
+            "Acompañante": "Salsa de ostras",
+            "AcompañanteDos": "Cebollín",
+            "AcompañanteTres": "Sésamo tostado",
+            "Estrellas": "⭐⭐⭐⭐⭐",
+            "Precio": "$ 50.000"
+        },
+        {
+            "Nombre": "Pollo gong bao o kung pao",
+            "Img": "../img/Pollo gong bao o kung pao.png",
+            "Acompañante": "Maní",
+            "AcompañanteDos": "Pimientos secos",
+            "AcompañanteTres": "Cebolla",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 28.000"
+        },
+        {
+            "Nombre": "Siew yhok",
+            "Img": "../img/Siew yhok.png",
+            "Acompañante": "Salsa de soja",
+            "AcompañanteDos": "Jengibre",
+            "AcompañanteTres": "Cebollín",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 36.000"
+        },
+        {
+            "Nombre": "Chop suey",
+            "Img": "../img/Chop suey.png",
+            "Acompañante": "Brotes de bambú",
+            "AcompañanteDos": "Setas",
+            "AcompañanteTres": "Bok choy",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 30.000"
+        },
+        {
+            "Nombre": "Pato laqueado a la pekinesa",
+            "Img": "../img/Pato laqueado a la pekinesa.png",
+            "Acompañante": "Salsa hoisin",
+            "AcompañanteDos": "Cebollines",
+            "AcompañanteTres": "Panqueques",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 45.000"
+        },
+        {
+            "Nombre": "Chow mein",
+            "Img": "../img/Chow mein.png",
+            "Acompañante": "Salsa de soja",
+            "AcompañanteDos": "Vegetales mixtos",
+            "AcompañanteTres": "Aceite de sésamo",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 32.000"
+        },
+        {
+            "Nombre": "Rollitos primavera",
+            "Img": "../img/Rollitos primavera.png",
+            "Acompañante": "Salsa agridulce",
+            "AcompañanteDos": "Salsa de ciruela",
+            "AcompañanteTres": "Salsa de soja",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 25.000"
+        },
+        {
+            "Nombre": "Ma po tofu",
+            "Img": "../img/Ma po tofu.png",
+            "Acompañante": "Salsa de soja",
+            "AcompañanteDos": "Cebollín",
+            "AcompañanteTres": "Aceite de chile",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 35.000"
+        },
+        {
+            "Nombre": "Arroz congee",
+            "Img": "../img/Arroz congee.png",
+            "Acompañante": "Huevos pochados",
+            "AcompañanteDos": "Cebollín",
+            "AcompañanteTres": "Jengibre",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 28.000"
+        },
+        {
+            "Nombre": "Shahe fen",
+            "Img": "../img/Shahe fen.png",
+            "Acompañante": "Brotes de bambú",
+            "AcompañanteDos": "Huevo batido",
+            "AcompañanteTres": "Salsa de soja",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 30.000"
+        },
+        {
+            "Nombre": "Youtiao",
+            "Img": "../img/Youtiao.png",
+            "Acompañante": "Leche de soja",
+            "AcompañanteDos": "Salsa de sésamo",
+            "AcompañanteTres": "Sopa de fideos",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 20.000"
+        },
+        {
+            "Nombre": "Ban mian",
+            "Img": "../img/Ban mian.png",
+            "Acompañante": "Huevo pochado",
+            "AcompañanteDos": "Cebollín",
+            "AcompañanteTres": "Aceite de chile",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 25.000"
+        },
+        {
+            "Nombre": "Jiaozi",
+            "Img": "../img/Jiaozi.png",
+            "Acompañante": "Vinagre negro chino",
+            "AcompañanteDos": "Jengibre",
+            "AcompañanteTres": "Salsa de soja",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 28.000"
+        },
+        {
+            "Nombre": "Huo guo o hot pot",
+            "Img": "../img/Huo guo o hot pot.png",
+            "Acompañante": "Salsa de cacahuate",
+            "AcompañanteDos": "Salsa de sésamo",
+            "AcompañanteTres": "Salsa picante",
+            "Estrellas": "⭐⭐⭐⭐⭐",
+            "Precio": "$ 40.000"
+        },
+        {
+            "Nombre": "Galletas de la fortuna",
+            "Img": "../img/Galletas de la fortuna.png",
+            "Acompañante": "Té",
+            "AcompañanteDos": "Helado de lichi",
+            "AcompañanteTres": "Frutas frescas",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 18.000"
+        },
+        {
+            "Nombre": "Pastel de luna",
+            "Img": "../img/Pastel de luna.png",
+            "Acompañante": "Té de jazmín",
+            "AcompañanteDos": "Frutas frescas",
+            "AcompañanteTres": "Sopa de tapioca",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 30.000"
+        },
+        {
+            "Nombre": "Helado frito",
+            "Img": "../img/Helado frito.png",
+            "Acompañante": "Miel",
+            "AcompañanteDos": "Frutas frescas",
+            "AcompañanteTres": "Granola",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 25.000"
+        },
+        {
+            "Nombre": "Té",
+            "Img": "../img/Té.png",
+            "Acompañante": "Galletas de la fortuna",
+            "AcompañanteDos": "Frutas frescas",
+            "AcompañanteTres": "Pastel de luna",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 15.000"
+        }
+    ]
+}

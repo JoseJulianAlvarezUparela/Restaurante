@@ -1,0 +1,180 @@
+{
+    "platillos": [
+      {
+        "nombre": "Enchiladas de frijoles y queso",
+        "jugo_natural": "Zumo de Mango",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐",
+        "precio": 14.99
+      },
+      {
+        "nombre": "Curry de verduras",
+        "jugo_natural": "Jugo de Piña",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐⭐",
+        "precio": 17.50
+      },
+      {
+        "nombre": "Risotto de champiñones",
+        "jugo_natural": "Batido de Fresa",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐",
+        "precio": 21.75
+      },
+      {
+        "nombre": "Hummus con falafel",
+        "jugo_natural": "Jugo de Arándano",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐",
+        "precio": 18.25
+      },
+      {
+        "nombre": "Pasta primavera",
+        "jugo_natural": "Zumo de Manzana",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐⭐",
+        "precio": 16.90
+      },
+      {
+        "nombre": "Berenjenas a la parmesana",
+        "jugo_natural": "Jugo de Sandía",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐",
+        "precio": 19.50
+      },
+      {
+        "nombre": "Tacos de jackfruit",
+        "jugo_natural": "Jugo de Maracuyá",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐",
+        "precio": 22.40
+      },
+      {
+        "nombre": "Sushi de aguacate y vegetales",
+        "jugo_natural": "Smoothie de Kiwi",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐⭐",
+        "precio": 20.20
+      },
+      {
+        "nombre": "Chili vegetariano",
+        "jugo_natural": "Zumo de Naranja",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐",
+        "precio": 15.99
+      },
+      {
+        "nombre": "Dolma (hojas de parra rellenas)",
+        "jugo_natural": "Jugo de Granada",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐⭐",
+        "precio": 25.90
+      },
+      {
+        "nombre": "Pad Thai vegetariano",
+        "jugo_natural": "Jugo de Limón",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐",
+        "precio": 23.25
+      },
+      {
+        "nombre": "Pizza vegetariana",
+        "jugo_natural": "Batido de Mora",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐⭐",
+        "precio": 17.80
+      },
+      {
+        "nombre": "Tagine de vegetales",
+        "jugo_natural": "Zumo de Papaya",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐",
+        "precio": 19.75
+      },
+      {
+        "nombre": "Lentejas al curry",
+        "jugo_natural": "Smoothie de Mango",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐⭐",
+        "precio": 16.50
+      },
+      {
+        "nombre": "Tortilla española de patatas",
+        "jugo_natural": "Jugo de Melocotón",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐",
+        "precio": 18.99
+      },
+      {
+        "nombre": "Bibimbap vegetariano",
+        "jugo_natural": "Batido de Plátano",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐⭐",
+        "precio": 21.40
+      },
+      {
+        "nombre": "Quiche de espinacas y champiñones",
+        "jugo_natural": "Zumo de Uva",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐",
+        "precio": 20.25
+      },
+      {
+        "nombre": "Falafel con tzatziki",
+        "jugo_natural": "Jugo de Coco",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐⭐",
+        "precio": 22.80
+      },
+      {
+        "nombre": "Tostadas de aguacate",
+        "jugo_natural": "Smoothie de Frambuesa",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐",
+        "precio": 16.75
+      },
+      {
+        "nombre": "Pakoras de verduras",
+        "jugo_natural": "Zumo de Mandarina",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐⭐",
+        "precio": 19.20
+      },
+      {
+        "nombre": "Gazpacho",
+        "jugo_natural": "Jugo de Tomate",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐",
+        "precio": 15.60
+      },
+      {
+        "nombre": "Cuscús de verduras",
+        "jugo_natural": "Batido de Piña",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐⭐",
+        "precio": 18.40
+      },
+      {
+        "nombre": "Rollitos de primavera",
+        "jugo_natural": "Jugo de Maracuyá",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐",
+        "precio": 24.50
+      },
+      {
+        "nombre": "Sopa de miso con tofu y algas",
+        "jugo_natural": "Smoothie de Kiwi",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐⭐",
+        "precio": 22.75
+      },
+      {
+        "nombre": "Canelones de espinacas y ricotta",
+        "jugo_natural": "Jugo de Limón",
+        "img": "",
+        "calificacion": "⭐⭐⭐⭐",
+        "precio": 20.99
+      }
+    ]
+  }
+  

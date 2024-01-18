@@ -1,0 +1,229 @@
+{
+    "Gastronomía Japonesa": [
+        {
+            "Nombre": "Sushi",
+            "Img": "",
+            "Acompañante": "Salsa de soja",
+            "AcompañanteDos": "Wasabi",
+            "AcompañanteTres": "Jengibre encurtido",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 35.000"
+        },
+        {
+            "Nombre": "Onigiri",
+            "Img": "",
+            "Acompañante": "Sésamo tostado",
+            "AcompañanteDos": "Alga nori",
+            "AcompañanteTres": "Relleno de tu elección",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 25.000"
+        },
+        {
+            "Nombre": "Sashimi",
+            "Img": "",
+            "Acompañante": "Salsa de soja",
+            "AcompañanteDos": "Wasabi",
+            "AcompañanteTres": "Rodajas de rábano",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 40.000"
+        },
+        {
+            "Nombre": "Sopa de miso",
+            "Img": "",
+            "Acompañante": "Tofu",
+            "AcompañanteDos": "Algas wakame",
+            "AcompañanteTres": "Cebollín",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 20.000"
+        },
+        {
+            "Nombre": "Udon",
+            "Img": "",
+            "Acompañante": "Tempura",
+            "AcompañanteDos": "Cebollín",
+            "AcompañanteTres": "Huevo pochado",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 30.000"
+        },
+        {
+            "Nombre": "Soba",
+            "Img": "",
+            "Acompañante": "Wasabi",
+            "AcompañanteDos": "Cebollín",
+            "AcompañanteTres": "Caldo de soba",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 28.000"
+        },
+        {
+            "Nombre": "Ramen",
+            "Img": "",
+            "Acompañante": "Brotes de bambú",
+            "AcompañanteDos": "Huevo cocido a baja temperatura",
+            "AcompañanteTres": "Maíz",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 32.000"
+        },
+        {
+            "Nombre": "Bentō",
+            "Img": "",
+            "Acompañante": "Arroz",
+            "AcompañanteDos": "Gyozas",
+            "AcompañanteTres": "Ensalada de algas",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 38.000"
+        },
+        {
+            "Nombre": "Mochi",
+            "Img": "",
+            "Acompañante": "Harina de maíz",
+            "AcompañanteDos": "Relleno de tu elección",
+            "AcompañanteTres": "Azúcar glas",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 25.000"
+        },
+        {
+            "Nombre": "Takoyaki",
+            "Img": "",
+            "Acompañante": "Salsa takoyaki",
+            "AcompañanteDos": "Aonori (algas secas)",
+            "AcompañanteTres": "Katsuobushi (bonito seco)",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 30.000"
+        },
+        {
+            "Nombre": "Taiyaki",
+            "Img": "",
+            "Acompañante": "Helado",
+            "AcompañanteDos": "Chocolate derretido",
+            "AcompañanteTres": "Fideos de colores",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 22.000"
+        },
+        {
+            "Nombre": "Okonomiyaki",
+            "Img": "",
+            "Acompañante": "Salsa okonomiyaki",
+            "AcompañanteDos": "Mayonesa",
+            "AcompañanteTres": "Aonori (algas secas)",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 28.000"
+        },
+        {
+            "Nombre": "Yakitori",
+            "Img": "",
+            "Acompañante": "Salsa tare",
+            "AcompañanteDos": "Limón",
+            "AcompañanteTres": "Cebollín",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 35.000"
+        },
+        {
+            "Nombre": "Dango",
+            "Img": "",
+            "Acompañante": "Salsa de soja",
+            "AcompañanteDos": "Azúcar",
+            "AcompañanteTres": "Kinako (harina de soja tostada)",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 18.000"
+        },
+        {
+            "Nombre": "Monjayaki",
+            "Img": "",
+            "Acompañante": "Salsa monja",
+            "AcompañanteDos": "Queso rallado",
+            "AcompañanteTres": "Cebollín",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 30.000"
+        },
+        {
+            "Nombre": "Dorayaki",
+            "Img": "",
+            "Acompañante": "Anko (pasta de judía roja)",
+            "AcompañanteDos": "Helado de vainilla",
+            "AcompañanteTres": "Frutas frescas",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 25.000"
+        },
+        {
+            "Nombre": "Edamame",
+            "Img": "",
+            "Acompañante": "Sal marina",
+            "AcompañanteDos": "Chiles secos",
+            "AcompañanteTres": "Aceite de sésamo",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 15.000"
+        },
+        {
+            "Nombre": "Buey de Kobe",
+            "Img": "",
+            "Acompañante": "Sal marina",
+            "AcompañanteDos": "Pimienta negra",
+            "AcompañanteTres": "Salsa de mostaza",
+            "Estrellas": "⭐⭐⭐⭐⭐",
+            "Precio": "$ 60.000"
+        },
+        {
+            "Nombre": "Yakiniku",
+            "Img": "",
+            "Acompañante": "Salsa yakiniku",
+            "AcompañanteDos": "Arroz",
+            "AcompañanteTres": "Kimchi",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 45.000"
+        },
+        {
+            "Nombre": "Meronpan o Melon pan",
+            "Img": "",
+            "Acompañante": "Helado de melón",
+            "AcompañanteDos": "Frutas frescas",
+            "AcompañanteTres": "Jarabe de melón",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 22.000"
+        },
+        {
+            "Nombre": "Té Matcha",
+            "Img": "",
+            "Acompañante": "Dulces tradicionales japoneses",
+            "AcompañanteDos": "Sopa de té",
+            "AcompañanteTres": "Frutas frescas",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 18.000"
+        },
+        {
+            "Nombre": "Carne de Hida",
+            "Img": "",
+            "Acompañante": "Sal y pimienta",
+            "AcompañanteDos": "Aceite de oliva",
+            "AcompañanteTres": "Salsa de vino tinto",
+            "Estrellas": "⭐⭐⭐⭐⭐",
+            "Precio": "$ 55.000"
+        },
+        {
+            "Nombre": "Tamagoyaki",
+            "Img": "",
+            "Acompañante": "Salsa de soja",
+            "AcompañanteDos": "Alga nori",
+            "AcompañanteTres": "Wasabi",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 26.000"
+        },
+        {
+            "Nombre": "Umeshu",
+            "Img": "",
+            "Acompañante": "Hielo",
+            "AcompañanteDos": "Frutas frescas",
+            "AcompañanteTres": "Hierbabuena",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "$ 32.000"
+        },
+        {
+            "Nombre": "Kit Kat",
+            "Img": "",
+            "Acompañante": "Té verde",
+            "AcompañanteDos": "Fresas",
+            "AcompañanteTres": "Galletas de arroz",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "$ 15.000"
+        }
+    ]
+}

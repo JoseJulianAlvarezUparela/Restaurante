@@ -1,0 +1,274 @@
+{
+    "Gastronomia Francesa": [
+        {
+            "Nombre": "Foie Gras",
+            "Img": "",
+            "Acompañante": "Pan tostado",
+            "AcompañanteDos": "Chutney de higos",
+            "AcompañanteTres": "Gelatina de vino tinto",
+            "Estrellas": "⭐⭐⭐⭐⭐",
+            "Precio": "€ 30.00"
+        },
+        {
+            "Nombre": "Ostras (Huîtres)",
+            "Img": "",
+            "Acompañante": "Limón",
+            "AcompañanteDos": "Salsa mignonette",
+            "AcompañanteTres": "Pan de centeno",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "€ 18.00"
+        },
+        {
+            "Nombre": "Coquilles Saint-Jacques",
+            "Img": "",
+            "Acompañante": "Puré de coliflor",
+            "AcompañanteDos": "Salsa de azafrán",
+            "AcompañanteTres": "Crispy panceta",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "€ 25.00"
+        },
+        {
+            "Nombre": "Ensalada Lyonnais",
+            "Img": "",
+            "Acompañante": "Huevo pochado",
+            "AcompañanteDos": "Tocino",
+            "AcompañanteTres": "Croutones",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "€ 12.00"
+        },
+        {
+            "Nombre": "Piperade",
+            "Img": "",
+            "Acompañante": "Pimientos del piquillo",
+            "AcompañanteDos": "Cebolla",
+            "AcompañanteTres": "Huevo frito",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "€ 15.00"
+        },
+        {
+            "Nombre": "Pan Bagnat",
+            "Img": "",
+            "Acompañante": "Aceitunas niçoise",
+            "AcompañanteDos": "Pepino",
+            "AcompañanteTres": "Pimientos asados",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "€ 10.00"
+        },
+        {
+            "Nombre": "Cassoulet",
+            "Img": "",
+            "Acompañante": "Tocino",
+            "AcompañanteDos": "Salchichas de Toulouse",
+            "AcompañanteTres": "Pan tostado",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "€ 22.00"
+        },
+        {
+            "Nombre": "Pollo a la vasca (Poulet Basquaise)",
+            "Img": "",
+            "Acompañante": "Pimientos rojos",
+            "AcompañanteDos": "Tomate",
+            "AcompañanteTres": "Pimientos verdes",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "€ 20.00"
+        },
+        {
+            "Nombre": "Caracoles con mantequilla de hierbas (Escargots au Beurre Persillé)",
+            "Img": "",
+            "Acompañante": "Pan de ajo",
+            "AcompañanteDos": "Perejil",
+            "AcompañanteTres": "Limón",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "€ 16.00"
+        },
+        {
+            "Nombre": "Moules Marinières",
+            "Img": "",
+            "Acompañante": "Papas fritas",
+            "AcompañanteDos": "Pan de ajo",
+            "AcompañanteTres": "Mayonesa",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "€ 18.00"
+        },
+        {
+            "Nombre": "Panqueques de alforfón bretón (Galettes Bretonnes)",
+            "Img": "",
+            "Acompañante": "Queso emmental",
+            "AcompañanteDos": "Jamón",
+            "AcompañanteTres": "Huevo frito",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "€ 14.00"
+        },
+        {
+            "Nombre": "Carbonnade Flamande",
+            "Img": "",
+            "Acompañante": "Papas fritas",
+            "AcompañanteDos": "Ensalada de la huerta",
+            "AcompañanteTres": "Pan de cerveza",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "€ 24.00"
+        },
+        {
+            "Nombre": "Quiche Lorraine",
+            "Img": "",
+            "Acompañante": "Ensalada mixta",
+            "AcompañanteDos": "Tomates cherry",
+            "AcompañanteTres": "Vinagreta de mostaza",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "€ 15.00"
+        },
+        {
+            "Nombre": "Raclette",
+            "Img": "",
+            "Acompañante": "Patatas cocidas",
+            "AcompañanteDos": "Pickles",
+            "AcompañanteTres": "Cebolla roja",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "€ 28.00"
+        },
+        {
+            "Nombre": "Fondue de queso (Fondue Savoyarde)",
+            "Img": "",
+            "Acompañante": "Pan de centeno",
+            "AcompañanteDos": "Brocoli",
+            "AcompañanteTres": "Manzanas",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "€ 26.00"
+        },
+        {
+            "Nombre": "Fondue de ternera (Fondue Bourguignonne)",
+            "Img": "",
+            "Acompañante": "Salsas variadas",
+            "AcompañanteDos": "Papas fritas",
+            "AcompañanteTres": "Ensalada de rúcula",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "€ 30.00"
+        },
+        {
+            "Nombre": "Gratin Dauphinois",
+            "Img": "",
+            "Acompañante": "Perejil",
+            "AcompañanteDos": "Nuez moscada",
+            "AcompañanteTres": "Ajo",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "€ 16.00"
+        },
+        {
+            "Nombre": "Tartiflette",
+            "Img": "",
+            "Acompañante": "Cebollas caramelizadas",
+            "AcompañanteDos": "Ensalada verde",
+            "AcompañanteTres": "Jamón",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "€ 22.00"
+        },
+        {
+            "Nombre": "Bouillabaisse",
+            "Img": "",
+            "Acompañante": "Pan tostado",
+            "AcompañanteDos": "Rouille",
+            "AcompañanteTres": "Queso rallado",
+            "Estrellas": "⭐⭐⭐⭐⭐",
+            "Precio": "€ 35.00"
+        },
+        {
+            "Nombre": "Ratatouille",
+            "Img": "",
+            "Acompañante": "Arroz",
+            "AcompañanteDos": "Pan crujiente",
+            "AcompañanteTres": "Aceite de oliva",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "€ 18.00"
+        },
+        {
+            "Nombre": "Boeuf Bourguignon",
+            "Img": "",
+            "Acompañante": "Puré de papas",
+            "AcompañanteDos": "Zanahorias glaseadas",
+            "AcompañanteTres": "Champiñones",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "€ 26.00"
+        },
+        {
+            "Nombre": "Sopa de cebolla",
+            "Img": "",
+            "Acompañante": "Queso gruyère",
+            "AcompañanteDos": "Pan tostado",
+            "AcompañanteTres": "Tomillo",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "€ 14.00"
+        },
+        {
+            "Nombre": "Blanquette de Ternera",
+            "Img": "",
+            "Acompañante": "Arroz blanco",
+            "AcompañanteDos": "Perejil",
+            "AcompañanteTres": "Zanahorias baby",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "€ 22.00"
+        },
+        {
+            "Nombre": "Pote-au-feu",
+            "Img": "",
+            "Acompañante": "Mostaza",
+            "AcompañanteDos": "Pepinillos",
+            "AcompañanteTres": "Pan de centeno",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "€ 20.00"
+        },
+        {
+            "Nombre": "Coq-au-vin",
+            "Img": "",
+            "Acompañante": "Puré de papas",
+            "AcompañanteDos": "Champiñones",
+            "AcompañanteTres": "Perejil",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "€ 28.00"
+        },
+        {
+            "Nombre": "Cottage Pie (Hachis Parmentier)",
+            "Img": "",
+            "Acompañante": "Ensalada mixta",
+            "AcompañanteDos": "Vinagreta de mostaza",
+            "AcompañanteTres": "Tomates cherry",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "€ 18.00"
+        },
+        {
+            "Nombre": "Bistec Tartar",
+            "Img": "",
+            "Acompañante": "Huevo crudo",
+            "AcompañanteDos": "Mostaza",
+            "AcompañanteTres": "Cebollas encurtidas",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "€ 30.00"
+        },
+        {
+            "Nombre": "Choucroute",
+            "Img": "",
+            "Acompañante": "Salchichas",
+            "AcompañanteDos": "Puré de papas",
+            "AcompañanteTres": "Mostaza",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "€ 24.00"
+        },
+        {
+            "Nombre": "Soufflé de queso (Soufflé au Fromage)",
+            "Img": "",
+            "Acompañante": "Ensalada verde",
+            "AcompañanteDos": "Vinagreta de frambuesa",
+            "AcompañanteTres": "Pan tostado",
+            "Estrellas": "⭐⭐⭐⭐",
+            "Precio": "€ 20.00"
+        },
+        {
+            "Nombre": "Ancas de rana (Cuisses de Grenouilles)",
+            "Img": "",
+            "Acompañante": "Ajo",
+            "AcompañanteDos": "Perejil",
+            "AcompañanteTres": "Limón",
+            "Estrellas": "⭐⭐⭐",
+            "Precio": "€ 26.00"
+        }
+    ]
+}
