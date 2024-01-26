@@ -1,73 +1,362 @@
-/* #cuadro {
-    width: 100px;
-    height: 100px;
-    margin-top: 20px;
-} */
-
 .HeroSection{
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
-    width: 100%;
-    height: calc(90vh - 80px);
-}
-
-.Left{
-    width: 30%;
-    height: 100%;
-
-    overflow-x: auto;
-}
-
-.Left .rectangulo{
-    width: 90%;
-    height: 100px;
-    background-color: violet;
-    margin-bottom: 10px;
+    width: 85%;
+    height: calc(90vh - 120px);
+    border-radius: 3rem;
     margin-left: auto;
     margin-right: auto;
 }
 
-.Right{
-    width: 68%;
+
+
+/* LEFT ****************************************************** */
+
+.left{
+    width: 30%;
     height: 100%;
-    background-color: brown;
+
     overflow-x: auto;
-
-    
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
+    border-radius: 3rem;
 }
 
-.Right .Imagenes{
-    width: 150px;
-    height: 150px;
-    margin: 10px;
-    background-color: aliceblue;
+.left .navegationMenu{
+     display: flex;
+     flex-direction: column;
+     margin-top: 3rem;
+     margin-bottom: 9rem;
 }
 
 
-.gastronomia-Colombia{
-    display: grid;
-    grid-template-columns: repeat(4, 100px);
+.left::-webkit-scrollbar {
+    width: 12px; 
+}
+
+.left::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 6px; 
+}
+
+.left::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.left::-moz-scrollbar {
+    width: 12px;
+}
+
+.left::-moz-scrollbar-thumb {
+    border-radius: 6px;
+}
+
+.left::-moz-scrollbar-track {
+    background-color: #ffffff;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 5%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+.Cards {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+    animation: entradaDesdeArriba2 1.5s ease-in-out;
 }
 
 
-.grid-container {
-    max-width: 800px;
-    margin: 0 auto;
+@keyframes entradaDesdeArriba2 {
+    from {
+        transform: translateY(-300%);
+    }
+    to {
+        transform: translateY(0);
+    }
 }
 
-.card {
-    border: 1px solid #ddd;
-    padding: 10px;
+.Cards {
+    display: block;
+    overflow: hidden; 
+    width: 90%; 
+    height: 260px;
+
+    border-radius: 2rem;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
-img {
-    max-width: 100%;
+.Cards img {
+    width: 100%;
     height: auto;
-    margin-top: 10px;
+    border-radius: 2rem; 
+    object-fit: cover;
+    transition-duration: .4s;
 }
+
+
+.Cards:hover img {
+    transition-duration: .4s;
+    transform: scale(1.2);
+}
+
+
+
+
+/* RIGHT  ******************************************************/
+
+.Right{
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Right::-webkit-scrollbar {
+    width: 12px; 
+}
+
+.Right::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 6px; 
+}
+
+.Right::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.Right::-moz-scrollbar {
+    width: 12px;
+}
+
+.Right::-moz-scrollbar-thumb {
+    border-radius: 6px;
+}
+
+.Right::-moz-scrollbar-track {
+    background-color: #ffffff;
+}
+
+
+
+.Grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+}
+
+.Tarjetas {
+    width: 740px;
+    height: auto;
+    background-image: url(../assets/Fondo\ Menu.jpg);
+    border-radius: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 2rem;
+    animation: entradaDesdeArriba 1.5s ease-in-out;
+}
+
+@keyframes entradaDesdeArriba {
+    from {
+        transform: translateY(-1000%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+.Tarjetas img {
+    width: 300px;
+    height: 300px; 
+}
+
+.Tarjetas > div {
+    flex-grow: 1;
+    margin-left: 1rem; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.Tarjetas h2, .Tarjetas p, .Tarjetas figcaption {
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    text-align: center;
+}
+
+.Tarjetas h2 {
+    font-size: 2.7rem; 
+    margin-bottom: -1rem;
+}
+
+.Tarjetas h3 {
+    font-size: 1.7rem;
+    margin-bottom: -1rem;
+}
+
+.Tarjetas p {
+    font-size: 1.4rem;
+    margin-bottom: -1rem;
+}
+
+.Tarjetas figcaption {
+    font-size: 1rem; 
+}
+
+.Tarjetas .calificaciones {
+    font-size: 2rem; 
+    margin-bottom: -1rem;
+}
+
+.Tarjetas .Precio {
+    font-size: 1.9rem;
+}
+
+@media screen and (max-width: 1115px) {
+
+    .Tarjetas {
+        width: 550px;
+        height: auto;
+    }
+    
+    
+    
+    .Tarjetas img {
+        width: 200px;
+        height: 200px; 
+    }
+    
+    .Tarjetas h2 {
+        font-size: 2rem; 
+        margin-bottom: -1rem;
+    }
+    
+    .Tarjetas h3 {
+        font-size: 1.2rem;
+        margin-bottom: -1rem;
+    }
+    
+    .Tarjetas p {
+        font-size: 1rem;
+        margin-bottom: -1rem;
+    }
+    
+    
+    .Tarjetas .calificaciones {
+        font-size: 1.2rem; 
+        margin-bottom: -1rem;
+    }
+    
+    .Tarjetas .Precio {
+        font-size: 2.5rem;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 986px) {
+
+    .Tarjetas {
+        width: 420px;
+        height: auto;
+    }
+    
+    
+    .Tarjetas img {
+        width: 150px;
+        height: 150px; 
+    }
+    
+    .Tarjetas h2 {
+        font-size: 1.8rem; 
+        margin-bottom: -1rem;
+    }
+    
+    .Tarjetas h3 {
+        font-size: 1.1rem;
+        margin-bottom: -1rem;
+    }
+    
+    .Tarjetas p {
+        font-size: 1rem;
+        margin-bottom: -1rem;
+    }
+    
+    
+    .Tarjetas .calificaciones {
+        font-size: 1.2rem; 
+        margin-bottom: -1rem;
+    }
+    
+    .Tarjetas .Precio {
+        font-size: 2.5rem;
+    }
+
+}
+
+
+
+@media screen and (max-width: 780px) {
+
+    .Tarjetas {
+        width: 380px;
+        height: auto;
+    }
+    
+    
+    .Tarjetas img {
+        width: 150px;
+        height: 150px; 
+    }
+    
+    .Tarjetas h2 {
+        font-size: 1.8rem; 
+        margin-bottom: -1rem;
+    }
+    
+    .Tarjetas h3 {
+        font-size: 1.1rem;
+        margin-bottom: -1rem;
+    }
+    
+    .Tarjetas p {
+        font-size: 1rem;
+        margin-bottom: -1rem;
+    }
+    
+    
+    .Tarjetas .calificaciones {
+        font-size: 1.2rem; 
+        margin-bottom: -1rem;
+    }
+    
+    .Tarjetas .Precio {
+        font-size: 2.5rem;
+    }
+
+}
+
+
+

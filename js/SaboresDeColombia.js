@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Ruta al archivo JSON local
-    const jsonFilePath = '../Recursos/Brazil.json';
+    const jsonFilePath = '../Recursos/Colombia.json';
   
     // Obtener el contenedor HTML
-    let container = document.getElementById("Brasil");
+    var container = document.getElementById("Colombia");
   
     // Realizar la solicitud fetch para obtener el archivo JSON
     fetch(jsonFilePath)
@@ -15,20 +15,20 @@ document.addEventListener("DOMContentLoaded", function () {
       })
       .then(data => {
         // Recorrer los datos y construir el HTML dinámicamente
-        for (let key in data) {
+        for (var key in data) {
           if (data.hasOwnProperty(key)) {
             // Crear un título para cada categoría
-            let categoryTitle = document.createElement("h2");
+            var categoryTitle = document.createElement("h2");
             categoryTitle.textContent = key;
             container.appendChild(categoryTitle);
   
             // Crear una lista para los platillos de cada categoría
-            let ul = document.createElement("ul");
+            var ul = document.createElement("ul");
   
             // Iterar sobre los platillos y crear elementos de lista
             data[key].forEach(function (platillo) {
               // Crear un elemento de lista
-              let li = document.createElement("li");
+              var li = document.createElement("li");
   
               // Crear y agregar elementos al elemento de lista
               li.innerHTML = 

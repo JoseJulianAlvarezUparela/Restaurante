@@ -1,14 +1,6 @@
 {
     "Gastronomía Brazil": [
-        {
-            "Nombre": "Abará",
-            "Img": "../img/abara.png",
-            "Acompañante": "Ensalada",
-            "AcompañanteDos": "Tajadas de Plátano Maduro",
-            "AcompañanteTres": "Frijoles",
-            "Estrellas": "⭐⭐⭐⭐⭐",
-            "Precio": "$ 30.000"
-        },
+
         {
             "Nombre": "Aberém",
             "Img": "../img/aberem.png",

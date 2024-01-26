@@ -9,6 +9,7 @@ body {
     padding: 0;
     background-image: url(../assets/Texture.jpg);
     background-size: cover;
+    background-repeat: repeat;
 }
 
 *,
@@ -29,6 +30,10 @@ header{
     height: 110px;
 }
 
+i{
+    font-size: 3rem;
+    color: aliceblue;
+}
 
 
 /* ***********************NAVEGATION********************** */
@@ -46,7 +51,7 @@ nav img{
 }
 
 nav a {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 800;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -58,3 +63,6 @@ nav a:hover{
     transition: .3s;
     color: rgb(253, 186, 0);
 }
+
+
+
