@@ -1,0 +1,15 @@
+main{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 90%;
+    height: calc(95vh - 120px);
+    border-radius: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: aliceblue;
+    overflow-x: auto;
+}

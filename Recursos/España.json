@@ -2,7 +2,7 @@
     "Comida Española": [
         {
             "Nombre": "Tortilla de patata",
-            "Img": "",
+            "Img": "../img/Tortilla de patata.png",
             "Acompañante": "Pan con tomate",
             "AcompañanteDos": "Alioli",
             "AcompañanteTres": "Pimientos del padrón",
@@ -11,7 +11,7 @@
         },
         {
             "Nombre": "Paella",
-            "Img": "",
+            "Img": "../img/Paella.png",
             "Acompañante": "Allioli",
             "AcompañanteDos": "Limón",
             "AcompañanteTres": "Ensalada de la huerta",
@@ -20,7 +20,7 @@
         },
         {
             "Nombre": "Croquetas",
-            "Img": "",
+            "Img": "../img/Croquetas.png",
             "Acompañante": "Salsa brava",
             "AcompañanteDos": "Ensalada mixta",
             "AcompañanteTres": "Pimientos de piquillo",
@@ -29,7 +29,7 @@
         },
         {
             "Nombre": "Gazpacho",
-            "Img": "",
+            "Img": "../img/Gazpacho.png",
             "Acompañante": "Huevo duro",
             "AcompañanteDos": "Pepino",
             "AcompañanteTres": "Cebolla",
@@ -38,7 +38,7 @@
         },
         {
             "Nombre": "Salmorejo",
-            "Img": "",
+            "Img": "../img/Salmojero.png",
             "Acompañante": "Jamón serrano",
             "AcompañanteDos": "Huevo duro",
             "AcompañanteTres": "Aceite de oliva",
@@ -47,7 +47,7 @@
         },
         {
             "Nombre": "Jamón",
-            "Img": "",
+            "Img": "../img/Jamon.jpg",
             "Acompañante": "Queso manchego",
             "AcompañanteDos": "Pan con tomate",
             "AcompañanteTres": "Aceitunas",
@@ -56,7 +56,7 @@
         },
         {
             "Nombre": "Patatas Bravas",
-            "Img": "",
+            "Img": "../img/Patatas Bravas.png",
             "Acompañante": "Salsa brava",
             "AcompañanteDos": "Alioli",
             "AcompañanteTres": "Perejil",
@@ -65,7 +65,7 @@
         },
         {
             "Nombre": "Patatas a la riojana",
-            "Img": "",
+            "Img": "../img/Patatas a la riojona.png",
             "Acompañante": "Chorizo",
             "AcompañanteDos": "Pimiento rojo",
             "AcompañanteTres": "Ajo",
@@ -74,7 +74,7 @@
         },
         {
             "Nombre": "Bacalao al pil pil",
-            "Img": "",
+            "Img": "../img/Bacalao al pil pil.png",
             "Acompañante": "Gulas",
             "AcompañanteDos": "Ajo",
             "AcompañanteTres": "Guindilla",
@@ -83,7 +83,7 @@
         },
         {
             "Nombre": "Pulpo a la gallega",
-            "Img": "",
+            "Img": "../img/Pulpo a la gallega.png",
             "Acompañante": "Pimentón",
             "AcompañanteDos": "Aceite de oliva",
             "AcompañanteTres": "Sal gruesa",
@@ -92,7 +92,7 @@
         },
         {
             "Nombre": "Calamares",
-            "Img": "",
+            "Img": "../img/Calamares.png",
             "Acompañante": "Limón",
             "AcompañanteDos": "Salsa de ajo y perejil",
             "AcompañanteTres": "Alioli",
@@ -101,7 +101,7 @@
         },
         {
             "Nombre": "Fabada Asturiana",
-            "Img": "",
+            "Img": "../img/Fabada Asturiana.png",
             "Acompañante": "Pan de maíz",
             "AcompañanteDos": "Cebolla roja",
             "AcompañanteTres": "Compango (chorizo, morcilla, tocino)",
@@ -110,7 +110,7 @@
         },
         {
             "Nombre": "Pisto manchego",
-            "Img": "",
+            "Img": "../img/Pisto manchego.png",
             "Acompañante": "Huevo frito",
             "AcompañanteDos": "Queso manchego rallado",
             "AcompañanteTres": "Pan tostado",
@@ -119,7 +119,7 @@
         },
         {
             "Nombre": "Papas arrugadas con mojo",
-            "Img": "",
+            "Img": "../img/Papas arrugadas con mojo.png",
             "Acompañante": "Mojo verde",
             "AcompañanteDos": "Mojo rojo",
             "AcompañanteTres": "Limón",
@@ -128,7 +128,7 @@
         },
         {
             "Nombre": "Merluza en salsa verde",
-            "Img": "",
+            "Img": "../img/Merluza en salsa verde.png",
             "Acompañante": "Almejas",
             "AcompañanteDos": "Guindilla",
             "AcompañanteTres": "Perejil",

@@ -102,11 +102,13 @@
 }
 
 .Cards img {
-    width: 100%;
+    max-width: 170px;
     height: auto;
     border-radius: 2rem; 
     object-fit: cover;
     transition-duration: .4s;
+    display: flex;
+    align-items: center;
 }
 
 

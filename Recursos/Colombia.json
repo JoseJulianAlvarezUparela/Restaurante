@@ -129,15 +129,6 @@
             "Estrellas": "⭐⭐⭐⭐",
             "Precio": "$ 30.000"
         },
-        {
-            "Nombre": "Bocachico en Leche de Coco",
-            "Img": "",
-            "Acompañante": "Arroz Basmati",
-            "AcompañanteDos": "Pimientos Asados",
-            "AcompañanteTres": "Plátano en Tentación",
-            "Estrellas": "⭐⭐⭐⭐",
-            "Precio": "$ 35.000"
-        },
 
         {
             "Nombre": "Cabrito al Horno",
@@ -230,15 +221,7 @@
             "Estrellas": "⭐⭐⭐⭐",
             "Precio": "$ 40.000"
         },
-        {
-            "Nombre": "Costillas Caramelizadas con Mostaza y Miel",
-            "Img": "../img/Costillas Caramelizadas con Mostaza y Miel.jpg",
-            "Acompañante": "Puré de Batatas",
-            "AcompañanteDos": "Maíz Asado",
-            "AcompañanteTres": "Salsa Barbacoa",
-            "Estrellas": "⭐⭐⭐⭐",
-            "Precio": "$ 45.000"
-        },
+        
         {
             "Nombre": "Costillas de Cerdo al Café",
             "Img": "../img/Costillas de Cerdo al Café.png",
