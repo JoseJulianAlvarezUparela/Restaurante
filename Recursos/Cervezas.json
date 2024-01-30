@@ -6,11 +6,6 @@
         "img": "../img/snow.png"
       },
       {
-        "nombre": "Budweiser",
-        "origen": "Estados Unidos",
-        "img": "../img/Budweiser.png"
-      },
-      {
         "nombre": "Heineken",
         "origen": "Países Bajos",
         "img": "../img/Heineken.png"
@@ -54,11 +49,6 @@
         "nombre": "Miller Lite",
         "origen": "Estados Unidos",
         "img": "../img/Miller Lite.png"
-      },
-      {
-        "nombre": "Guinness",
-        "origen": "Irlanda",
-        "img": "../img/"
       },
       {
         "nombre": "Chang",

@@ -15,29 +15,27 @@
 
 /* LEFT ****************************************************** */
 
-.left{
+.left {
     width: 30%;
     height: 100%;
-
     overflow-x: auto;
     border-radius: 3rem;
 }
 
-.left .navegationMenu{
-     display: flex;
-     flex-direction: column;
-     margin-top: 3rem;
-     margin-bottom: 9rem;
+.left .navegationMenu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 9rem;
 }
 
-
 .left::-webkit-scrollbar {
-    width: 12px; 
+    width: 12px;
 }
 
 .left::-webkit-scrollbar-thumb {
     background-color: transparent;
-    border-radius: 6px; 
+    border-radius: 6px;
 }
 
 .left::-webkit-scrollbar-track {
@@ -69,17 +67,29 @@
 }
 
 .Cards {
-    view-timeline-name: --image;
-    view-timeline-axis: block;
-
-    animation-timeline: --image;
-    animation-name: show;
-
-    animation-range: entry 25% cover 50%;
-    animation-fill-mode: both;
+    width: 100%;
+    height: auto;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    overflow: hidden;
     animation: entradaDesdeArriba2 1.5s ease-in-out;
 }
 
+.Cards img {
+    width: 100%;
+    height: auto;
+    border-radius: 2rem;
+    object-fit: cover;
+    transition-duration: 0.4s;
+    display: flex;
+    align-items: center;
+}
+
+.Cards:hover img {
+    transition-duration: 0.4s;
+    transform: scale(1.2);
+}
 
 @keyframes entradaDesdeArriba2 {
     from {
@@ -90,11 +100,11 @@
     }
 }
 
+
 .Cards {
-    display: block;
     overflow: hidden; 
-    width: 90%; 
-    height: 260px;
+    width: 100%; 
+    height: auto;
 
     border-radius: 2rem;
     margin-bottom: 1rem;
@@ -102,7 +112,7 @@
 }
 
 .Cards img {
-    max-width: 170px;
+    max-width: 100%;
     height: auto;
     border-radius: 2rem; 
     object-fit: cover;
@@ -123,12 +133,13 @@
 /* RIGHT  ******************************************************/
 
 .Right{
-    width: 100%;
+    width: 60%;
     height: 100%;
     overflow-x: auto;
 
     margin-left: auto;
     margin-right: auto;
+
 }
 
 
@@ -166,7 +177,7 @@
 }
 
 .Tarjetas {
-    width: 740px;
+    width: 100%;
     height: auto;
     background-image: url(../assets/Fondo\ Menu.jpg);
     border-radius: 1rem;
