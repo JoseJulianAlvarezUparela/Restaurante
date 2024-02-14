@@ -28,6 +28,8 @@ main{
 
 header{
     height: 110px;
+    display: flex;
+    align-items: center;
 }
 
 i{
@@ -37,6 +39,12 @@ i{
 
 
 /* ***********************NAVEGATION********************** */
+
+.toggleMenu{
+    display: none;
+    width: 30px;
+    z-index: 999;
+}
 
 nav{
     display: flex;
@@ -64,5 +72,49 @@ nav a:hover{
     color: rgb(253, 186, 0);
 }
 
+@media screen and (max-width: 800px) {
+    .toggleMenu{
+        display: block;
+        cursor: pointer;
+        position: relative;
+        left: 85%;
+        width: 50px;
+    }
 
+    .Navegation{
+        position: absolute;
+        top: 50px;
+        width: 110%;
+        left: 0;
+        height: 90vh;
+        z-index: 100;
+
+        display: flex;
+        flex-direction: column;
+
+        transition: .5s ease;
+        transform: translateX(-140%);
+
+        /* background-image: url(../assets//Texture.jpg); */
+        background-size: cover;
+        background-position: center;
+    }
+
+    .Navegation a{
+        font-size: 2rem;
+        text-align: center;
+        padding: 10px;
+        transition: .5s ease;
+    }
+
+    .Navegation a:hover{
+        background-color: black;
+        width: 100%;
+    }
+
+    .nav-show{
+        transition: .5s ease;
+        transform: translateX(0);
+    }
+}
 

@@ -12,7 +12,7 @@
 
     <header>
 
-        <nav>
+        <nav class="Navegation">
 
             <a href="Index.html">Inicio</a>
             <a href="SaboresDelMundo.html">Sabores Globales</a>
@@ -22,11 +22,13 @@
             <a href="#">Reservaciones</a>
             <a href="#">Sobre Nosotros</a>
 
-            
         </nav>
 
-    </header>
+        <div class="toggleMenu" id="toggleMenu">
+            <img src="assets/bars-solid.svg">
+        </div>
 
+    </header>
     <main>
 
         <div class="HeroSection">
@@ -40,6 +42,8 @@
                 <a class="Cards" href="SaboresDeChina.html" onclick="mostrarContenido('Contenido China');"><img src="assets/Comida_China.jpg"></a>
                 <a class="Cards" href="SaboresDeEspaña.html" onclick="mostrarContenido('Contenido Española');"><img src="assets/Comida_Española.jpg"></a>
                 
+                <button class="expand-button">Sabores del Mundo</button>
+
             </nav>
 
            </div>
@@ -55,6 +59,8 @@
     </main>
 
     <script src="js/SaboresDelMundo.js"></script>
+    <script src="js/Script.js"></script>
+
 
 </body>
 </html>

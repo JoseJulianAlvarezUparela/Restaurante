@@ -20,6 +20,7 @@
     height: 100%;
     overflow-x: auto;
     border-radius: 3rem;
+    transition: width 0.5s ease; 
 }
 
 .left .navegationMenu {
@@ -27,6 +28,33 @@
     flex-direction: column;
     margin-top: 3rem;
     margin-bottom: 9rem;
+}
+
+.expand-button {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0 3rem 3rem 0;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .left {
+        width: 0;
+    }
+    .expand-button {
+        display: block; 
+    }
+}
+
+.expanded {
+    width: 100%;
 }
 
 .left::-webkit-scrollbar {
@@ -171,9 +199,9 @@
 
 
 .Grid {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Cambio: define columnas responsivas */
+    gap: 2rem; /* Espacio entre las tarjetas */
 }
 
 .Tarjetas {
@@ -184,6 +212,7 @@
     padding: 1rem;
     box-sizing: border-box;
     display: flex;
+    flex-direction: column; /* Cambio: ahora es vertical */
     margin-bottom: 2rem;
     animation: entradaDesdeArriba 1.5s ease-in-out;
 }
@@ -197,179 +226,102 @@
     }
 }
 
-
 .Tarjetas img {
-    width: 300px;
-    height: 300px; 
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin: auto; 
+    margin-bottom: 1rem; 
 }
 
 .Tarjetas > div {
-    flex-grow: 1;
-    margin-left: 1rem; 
-    display: flex;
-    flex-direction: column; 
+    margin-left: 0;
 }
 
 .Tarjetas h2, .Tarjetas p, .Tarjetas figcaption {
-    margin-left: auto;
-    margin-right: auto;
     color: aliceblue;
     text-align: center;
+    margin: 0; 
 }
 
 .Tarjetas h2 {
-    font-size: 2.7rem; 
-    margin-bottom: -1rem;
+    font-size: 2.7rem;
+    margin-bottom: 0.5rem; /* Cambio: Reducir el margen inferior */
 }
 
 .Tarjetas h3 {
     font-size: 1.7rem;
-    margin-bottom: -1rem;
+    margin-bottom: 0.5rem; /* Cambio: Reducir el margen inferior */
 }
 
 .Tarjetas p {
     font-size: 1.4rem;
-    margin-bottom: -1rem;
+    margin-bottom: 0.5rem; /* Cambio: Reducir el margen inferior */
 }
 
 .Tarjetas figcaption {
-    font-size: 1rem; 
+    font-size: 1rem;
 }
 
 .Tarjetas .calificaciones {
-    font-size: 2rem; 
-    margin-bottom: -1rem;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 .Tarjetas .Precio {
     font-size: 1.9rem;
 }
 
-@media screen and (max-width: 1115px) {
 
-    .Tarjetas {
-        width: 550px;
-        height: auto;
+@media screen and (max-width: 768px) {
+
+    .Right{
+        width: 100%;
     }
-    
-    
-    
+
     .Tarjetas img {
-        width: 200px;
-        height: 200px; 
+        width: 70%
     }
-    
-    .Tarjetas h2 {
-        font-size: 2rem; 
-        margin-bottom: -1rem;
-    }
-    
-    .Tarjetas h3 {
-        font-size: 1.2rem;
-        margin-bottom: -1rem;
-    }
-    
-    .Tarjetas p {
-        font-size: 1rem;
-        margin-bottom: -1rem;
-    }
-    
-    
-    .Tarjetas .calificaciones {
-        font-size: 1.2rem; 
-        margin-bottom: -1rem;
-    }
-    
-    .Tarjetas .Precio {
-        font-size: 2.5rem;
-    }
-
 }
 
 
-
-
-@media screen and (max-width: 986px) {
-
-    .Tarjetas {
-        width: 420px;
-        height: auto;
-    }
-    
-    
+@media screen and (max-width: 500px) {
     .Tarjetas img {
-        width: 150px;
-        height: 150px; 
+        width: 50%;
+        max-width: 100%;
+        margin: auto; 
+        margin-bottom: 1rem; 
     }
-    
+
+    .Tarjetas > div {
+        margin-left: 0;
+    }
+
     .Tarjetas h2 {
-        font-size: 1.8rem; 
-        margin-bottom: -1rem;
+        font-size: 2rem; /* Reducir el tamaño del título */
+        margin-bottom: 0.3rem; /* Reducir el margen inferior del título */
     }
-    
+
     .Tarjetas h3 {
-        font-size: 1.1rem;
-        margin-bottom: -1rem;
+        font-size: 1.5rem; /* Reducir el tamaño del subtítulo */
+        margin-bottom: 0.3rem; /* Reducir el margen inferior del subtítulo */
     }
-    
+
     .Tarjetas p {
-        font-size: 1rem;
-        margin-bottom: -1rem;
+        font-size: 1.2rem; /* Reducir el tamaño del texto */
+        margin-bottom: 0.3rem; /* Reducir el margen inferior del texto */
     }
-    
-    
+
     .Tarjetas .calificaciones {
-        font-size: 1.2rem; 
-        margin-bottom: -1rem;
+        font-size: 1.5rem; /* Reducir el tamaño de las calificaciones */
+        margin-bottom: 0.3rem; /* Reducir el margen inferior de las calificaciones */
     }
-    
+
     .Tarjetas .Precio {
-        font-size: 2.5rem;
+        font-size: 1.5rem; /* Reducir el tamaño del precio */
     }
 
+    .Tarjetas figcaption {
+        font-size: 0.8rem; /* Reducir el tamaño del pie de página */
+    }
 }
-
-
-
-@media screen and (max-width: 780px) {
-
-    .Tarjetas {
-        width: 380px;
-        height: auto;
-    }
-    
-    
-    .Tarjetas img {
-        width: 150px;
-        height: 150px; 
-    }
-    
-    .Tarjetas h2 {
-        font-size: 1.8rem; 
-        margin-bottom: -1rem;
-    }
-    
-    .Tarjetas h3 {
-        font-size: 1.1rem;
-        margin-bottom: -1rem;
-    }
-    
-    .Tarjetas p {
-        font-size: 1rem;
-        margin-bottom: -1rem;
-    }
-    
-    
-    .Tarjetas .calificaciones {
-        font-size: 1.2rem; 
-        margin-bottom: -1rem;
-    }
-    
-    .Tarjetas .Precio {
-        font-size: 2.5rem;
-    }
-
-}
-
-
-
