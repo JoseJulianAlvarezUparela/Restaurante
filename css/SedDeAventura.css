@@ -15,8 +15,52 @@ main{
     justify-content: space-between;
 }
 
+.left h1 {
+    font-size: 3.2rem;
+    z-index: 100;
+    margin-bottom: -30px;
+}
+
+.left p {
+    font-size: 2.6rem;
+    z-index: 100;
+}
+
+.center img {
+    position: relative;
+    height: 80vh;
+    rotate: 30deg;
+    z-index: 100;
+}
 
 
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049; /* Cambiar el color de fondo al pasar el cursor */
+}
+
+.decoration{
+    position: fixed;
+    width: 40vw;
+    height: 40vw;
+
+    border-radius: 50%;
+    background-color: antiquewhite;
+    z-index: -100;
+
+    margin-left: auto;
+    margin-right: auto;
+}
 
 main::-webkit-scrollbar {
     width: 12px;
@@ -45,59 +89,3 @@ main::-moz-scrollbar-track {
 }
 
 /* LEFT **********************************  */
-
-.HeroSection{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 90vh;
-
-}
-
-.HeroSection .Left {
-    color: aliceblue;
-}
-
-.P_1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
-
-.P_2 {
-    font-size: 4rem;
-    margin-top: 1rem;
-    color: rgb(253, 186, 0);
-    padding-top: .5rem;
-    margin-bottom: 1rem;
-}
-
-
-.Left a {
-    font-size: 2rem;
-    color: rgb(68, 62, 62);
-    text-decoration: none;
-    color: white;
-    padding: 5px;
-    border-radius: 30px;
-    background-color: rgb(253, 186, 0);
-}
-
-.Left a:hover {
-    transition: 1s;
-    padding: 10px;
-}
-
-
-
-/* RIGTH ************************* */
-
-
-.Rigth .image {
-    width: 30rem;
-    height: auto;
-}
-
-
-
-
-/* CARRUSEL ************************************************************** */
