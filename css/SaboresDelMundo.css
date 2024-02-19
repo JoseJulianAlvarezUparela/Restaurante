@@ -325,3 +325,10 @@
         font-size: 0.8rem; /* Reducir el tamaño del pie de página */
     }
 }
+
+
+@media screen and (max-width: 488px) {
+    .Tarjetas{
+        width: 80%;
+    }
+}
